@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { AddbookComponent } from './addbook/addbook.component';
 import { BookpanierComponent } from './bookpanier/bookpanier.component';
 import { BooksComponent } from './books/books.component';
-import { EditBookComponent } from './edit-book/edit-book.component';
 import { ListbooksComponent } from './listbooks/listbooks.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NavuserComponent } from './navuser/navuser.component';
@@ -15,10 +14,7 @@ const routes: Routes = [
     {path:'books',component:BooksComponent},   
     {
       path : 'search' , component : SearchComponent
-    },{
-      path: 'edit/:id',
-      component: EditBookComponent
-     },
+    },
   
     {path: 'add/create',
   component: AddbookComponent

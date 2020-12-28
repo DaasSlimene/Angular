@@ -15,7 +15,6 @@
             <td>{{ Book.price }}</td>
             <td>{{ Book.releasedate }}</td> 
             <td>{{ Book.title }}</td> 
-            <td><a [routerLink] = "['/dashboard/edit', Book.id]" class="btn btn-primary" routerLinkActive="active">Edit</a></td>
 
             <td><a  routerLink =" /dashboard/books" routerLinkActive="active"  (click) = "deleteBook(Book.id)" class="btn btn-danger">Delete</a></td>
 

@@ -13,7 +13,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NavuserComponent } from './navuser/navuser.component';
 import { BooksComponent } from './books/books.component';
 import { SearchComponent } from './search/search.component';
-import { EditBookComponent } from './edit-book/edit-book.component';
 import { TotalComponent } from './total/total.component';
 
 @NgModule({
@@ -26,7 +25,6 @@ import { TotalComponent } from './total/total.component';
     NavuserComponent,
     BooksComponent,
     SearchComponent,
-    EditBookComponent,
     TotalComponent
   ],
   imports: [
