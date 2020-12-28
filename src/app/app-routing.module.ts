@@ -7,7 +7,6 @@ import { ListbooksComponent } from './listbooks/listbooks.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NavuserComponent } from './navuser/navuser.component';
 import { SearchComponent } from './search/search.component';
-import { TotalComponent } from './total/total.component';
 
 const routes: Routes = [
   { path: 'dashboard' , component : NavbarComponent ,children:[
@@ -21,10 +20,8 @@ const routes: Routes = [
  }]},
  
  {path:'bookstore', component: NavuserComponent,
-  children : [{
-    path: 'total',
-    component: TotalComponent
- },{
+  children : [
+  {
     path: 'list',
     component: ListbooksComponent
  }, {
